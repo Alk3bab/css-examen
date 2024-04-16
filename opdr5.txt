@@ -1,0 +1,36 @@
+Observaties:
+
+Navigatie: Ze had moeite om de navigatieknoppen te vinden, vooral op kleinere schermen zoals haar tablet. Ze klikte herhaaldelijk op verschillende delen van de pagina voordat ze de navigatie zag.
+
+Inhoud: Ze vond de inhoud van de "Over mij" en "Portfolio" secties interessant, maar merkte op dat sommige teksten te lang waren en moeilijk te lezen waren vanwege het kleine lettertype.
+
+Contactformulier: Het contactformulier was niet meteen duidelijk voor haar. Ze keek er overheen en zag pas nadat ik haar erop wees.
+
+Responsiviteit: Op haar smartphone had ze moeite om de inhoud te bekijken vanwege het ontbreken van een mobiel responsief ontwerp. Sommige elementen waren te klein en niet goed klikbaar.
+
+Visuele aantrekkelijkheid: Ze vond de kleuren en lay-out over het algemeen aantrekkelijk, maar merkte op dat sommige elementen beter zouden kunnen worden uitgelicht voor meer nadruk.
+
+Vragen na de observatie:
+Wat vond je van de algemene uitstraling van de website?
+
+Antwoord: "Het ziet er goed uit, maar sommige delen waren moeilijk te vinden."
+Heb je alle informatie kunnen vinden die je zocht?
+
+Antwoord: "Ja, maar het kostte me wat tijd om de navigatie te begrijpen."
+Zou je iets willen veranderen aan het ontwerp of de lay-out?
+
+Antwoord: "Misschien kun je de tekst groter maken, vooral op mobiele apparaten."
+Analyse:
+Na de observatie en de discussie met andere front-end ontwikkelaars, heb ik enkele belangrijke inzichten verkregen:
+
+Noodzaak van duidelijke navigatie: Het is essentieel om een duidelijke en intuïtieve navigatiestructuur te hebben, vooral voor gebruikers met beperkte technische kennis. Het moet gemakkelijk zijn om de belangrijkste secties van de website te vinden zonder te veel te hoeven zoeken.
+
+Verbetering van responsief ontwerp: Het ontwerp moet volledig responsief zijn en goed werken op verschillende schermformaten, vooral op mobiele apparaten. Elementen moeten groot genoeg zijn en gemakkelijk te tikken of te klikken zijn.
+
+Optimalisatie van teksten: Teksten moeten beknopt en gemakkelijk leesbaar zijn, vooral op kleinere schermen. Lange stukken tekst kunnen overweldigend zijn en gebruikers afschrikken.
+
+Verduidelijking van belangrijke elementen: Belangrijke elementen, zoals het contactformulier, moeten duidelijk worden benadrukt zodat gebruikers ze niet missen.
+
+Continu testen en itereren: Het is belangrijk om regelmatig gebruikerstests uit te voeren en feedback te verzamelen om de gebruikerservaring voortdurend te verbeteren. Gebruikers met verschillende niveaus van technische kennis kunnen waardevolle inzichten bieden die kunnen leiden tot betere ontwerpbeslissingen.
+
+Door deze observatie en analyse heb ik een beter begrip gekregen van de sterke punten en verbeterpunten van mijn front-end ontwerp, wat me zal helpen om een meer gebruikersgerichte ervaring te creëren.

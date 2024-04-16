@@ -1,54 +1,110 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #6c757d;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-}
-
-header h1 {
-    margin: 0;
+  background-color: #7e7a7c;
+  color: white;
+  padding: 20px;
 }
 
 nav ul {
-    list-style-type: none;
-    padding: 0;
+  list-style-type: none;
+  padding: 0;
 }
-
 nav ul li {
-    display: inline;
-    margin-right: 20px;
+  display: inline;
+  margin-right: 20px;
 }
-
 nav ul li:last-child {
-    margin-right: 0;
+  margin-right: 0;
 }
-
 nav ul li a {
-    color: #fff;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 main {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
 }
-
-article {
-    background-color: #f4f4f4;
-    padding: 20px;
-    margin-bottom: 20px;
+main section {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+main article h2 {
+  color: #7e7a7c;
+}
+main article p {
+  color: #6c757d;
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
+  background-color: #7e7a7c;
+  color: white;
+  text-align: center;
+  padding: 20px;
 }
+
+@media (max-width: 768px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 576px) {
+  header {
+    padding: 10px;
+  }
+}
+article {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.margin-1 {
+  margin: 10px;
+}
+
+.margin-2 {
+  margin: 20px;
+}
+
+.margin-3 {
+  margin: 30px;
+}
+
+.margin-4 {
+  margin: 40px;
+}
+
+.margin-5 {
+  margin: 50px;
+}
+
+.social-links {
+  list-style: none;
+  padding: 0;
+}
+
+.social-links li {
+  margin-bottom: 10px;
+}
+
+.social-links li a {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.social-links li a:hover {
+  background-color: #0056b3;
+}/*# sourceMappingURL=style.css.map */

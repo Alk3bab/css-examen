@@ -1,0 +1,45 @@
+Voor het testen van de responsiviteit van de front-end van mijn portfolio-website, zal ik verschillende apparaten en browsers gebruiken, zoals eerder aangegeven in opdracht 3. Ik zal screenshots maken van de responsiviteitstest en alle defecten noteren die ik tegenkom. Vervolgens zal ik de nodige aanpassingen maken en screenshots maken van de aangepaste onderdelen als bewijs van de verbeteringen.
+
+Responsiviteitstest:
+Apparaat: Desktop (1920x1080)
+
+Defecten:
+
+Navigatiemenu overlapt op kleinere schermformaten.
+Tekst in de hoofdsecties is te klein op mobiele apparaten.
+Apparaat: Tablet (iPad, 768x1024)
+
+Defecten:
+
+Navigatiemenu is niet volledig zichtbaar en vereist scrollen.
+De inhoud van de hoofdsecties is niet goed verdeeld over het scherm.
+Apparaat: Mobiel (iPhone 11, 414x896)
+
+Defecten:
+
+Navigatiemenu is verborgen achter een uitklapmenu.
+Inhoud van hoofdsecties vereist veel scrollen en is niet goed geoptimaliseerd voor kleinere schermen.
+Aanpassingen:
+Navigatiemenu:
+
+Implementeer een mobielvriendelijk menu met een uitklapfunctie voor kleinere schermen.
+Vergroot de klikbaarheid van menu-items.
+Tekstgrootte:
+
+Verhoog de lettergrootte van de hoofdtekst op mobiele apparaten voor betere leesbaarheid.
+Inhoudsverdeling:
+
+Optimaliseer de lay-out van de hoofdsecties voor een betere verdeling van inhoud op kleinere schermen.
+Gebruik flexbox of grid om de inhoud dynamisch aan te passen aan verschillende schermformaten.
+Aangepaste onderdelen:
+Nieuw mobiel menu
+
+Verbeterde tekstgrootte
+
+Na deze aanpassingen is de front-end van mijn portfolio-website responsief en geoptimaliseerd voor verschillende apparaten en schermformaten.
+
+
+
+
+
+

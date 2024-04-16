@@ -1,0 +1,136 @@
+
+
+// Variabelen
+$primary-color: #7e7a7c;
+$secondary-color: #6c757d;
+$font-family: Arial, sans-serif;
+
+// Namespace
+$namespace-font: "font";
+$namespace-bg: "bg";
+$namespace-margin: "margin";
+
+// Mixins
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// Styles
+body {
+  font-family: $font-family;
+  background-color: #f8f9fa;
+  color: $secondary-color;
+}
+
+header {
+  background-color: $primary-color;
+  color: white;
+  padding: 20px;
+}
+
+nav {
+  ul {
+    list-style-type: none;
+    padding: 0;
+
+    li {
+      display: inline;
+      margin-right: 20px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      a {
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+
+  section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  article {
+    h2 {
+      color: $primary-color;
+    }
+
+    p {
+      color: $secondary-color;
+    }
+  }
+}
+
+footer {
+  background-color: $primary-color;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+// Media queries
+@media (max-width: 768px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 576px) {
+  header {
+    padding: 10px;
+  }
+}
+
+// Extend
+%card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+article {
+  @extend %card;
+}
+
+// Loops
+@for $i from 1 through 5 {
+  .margin-#{$i} {
+    margin: $i * 10px;
+  }
+}
+
+.social-links {
+  list-style: none;
+  padding: 0;
+}
+
+.social-links li {
+  margin-bottom: 10px;
+}
+
+.social-links li a {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.social-links li a:hover {
+  background-color: #0056b3;
+}
+
